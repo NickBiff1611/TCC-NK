@@ -442,7 +442,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     const registerForm = document.getElementById('registerForm');
     
-    // Alternar entre formulários
     document.querySelectorAll('.auth-switch a').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
@@ -451,7 +450,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Validação de formulário
     document.querySelectorAll('form').forEach(form => {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
