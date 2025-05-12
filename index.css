@@ -3,6 +3,7 @@ body {
     font-family: 'Copse', serif;
     background: linear-gradient(to bottom, darkred, black);
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     color: white;
