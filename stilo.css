@@ -37,31 +37,7 @@ body {
     font-size: 1rem;
 }
 
-a1 {
-    width: 95%;
-    padding: 12px;
-    background: rgba(82, 196, 141, 0.5);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-    text-align: center;
-}
 
-a {
-    width: 95%;
-    padding: 12px;
-    background: rgba(82, 196, 141, 0.5);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-    text-align: center;
-}
 
 button {
     width: 102%;
