@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Copse', serif;
+    background: linear-gradient(to bottom, darkred, black);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .main-header {
+    background-color: black;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+
+  .header-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand-name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  nav ul li a:hover {
+    background-color: red;
+    border-color: darkred;
+  }
+
+  .container {
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .logo-container, .logo-placeholder {
+    flex: 1 1 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-placeholder img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+
+  .welcome-text, .form-container {
+    flex: 2 1 300px;
+    text-align: left;
+  }
+
+  .welcome-text h1 {
+    color: red;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+  }
+
+  button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: darkred;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .login-form, .register-form {
+    margin-top: 20px;
+  }
+
+  .btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+
+  .btn-voltar:hover {
+    background-color: #222;
+  }

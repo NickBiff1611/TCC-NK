@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Bivers Lavacar - Lavagem Automotiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section class="volta">
+            <h1>Agendamento de Serviços</h1>
+            <a href="index.html" class="btn-voltar">Voltar</a>
+            </section>
+        </header>
+        
+        <main>
+            <form id="formAgendamento">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="servico">Serviço Desejado:</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione um serviço...
+
+                            <option value="">Serviço realizado</option>
+    <option value="1">Lavagem Simples - R$ 30,00 (30 min)</option>
+    <option value="2">Lavagem Completa - R$ 60,00 (60 min)</option>
+    <option value="3">Polimento Profissional - R$ 120,00 (120 min)</option>
+    <option value="4">Higienização Interna - R$ 80,00 (90 min)</option>
+    <option value="5">Lavagem de Motor - R$ 50,00 (40 min)</option>
+    <option value="6">Cristalização de Pintura - R$ 200,00 (180 min)</option>
+    <option value="7">Lavagem Ecológica - R$ 40,00 (25 min)</option>
+    <option value="8">Higienização de Ar-Condicionado - R$ 60,00 (30 min)</option>
+    <option value="9">Impermeabilização de Bancos - R$ 70,00 (60 min)</option>
+    <option value="10">Pacote Premium (Lavagem + Polimento + Higienização) - R$ 150,00 (150 min)
+                        </option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="data">Data Desejada:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="horario">Horário Disponível:</label>
+                    <select id="horario" name="horario" required disabled>
+                        <option value="">Primeiro selecione uma data</option>
+                    </select>
+                </div>
+
+                
+                
+                <button type="submit" class="btn">Confirmar Agendamento</button>
+            </form>
+            
+            <div id="mensagem" class="mensagem"></div>
+        </main>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
